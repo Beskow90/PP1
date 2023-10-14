@@ -7,20 +7,19 @@
     box-sizing: border-box;
 }
 
-/* Header image */
-#home {
-
+/* ------ Header image ------ */
+#header {
+    /* Image taken from https://images.unsplash.com/photo-1495929427389-a6451f2e01fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80  */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header-pic.jpg);
     height: 200px;
 
-    /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
-/* Header font */
+/* ------ Header font ------ */
 header h1 {
     font-family: 'Style script';
     font-size: 40px;
@@ -40,7 +39,7 @@ header h1 {
     display: flex;
     flex-direction: column;
 }
-/* Navigation bar */
+/* ----- Navigation bar ------ */
 nav {
     padding: 0;
     width: 100%;
@@ -65,7 +64,40 @@ nav > a:hover {
     text-transform: uppercase;
 }
 
-/* Footer */
+/*----- Main ------*/
+
+#home {
+    /* Image taken from https://images.unsplash.com/photo-1516154767575-2146adebdf32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80 */
+    background: url(../images/bg-home.jpg) center center / cover no-repeat fixed;
+    padding: 1rem;
+    margin-bottom: 50px;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-color {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#home div {
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 10px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;   
+}
+
+/* ------ About Us ------ */
+
+
+/* ------ Sign Up------ */
+
+/* ------ Contact Us ------ */
+
+/* ------ Footer ------ */
 footer {
     background-color: #000000;
     padding: 1px;
