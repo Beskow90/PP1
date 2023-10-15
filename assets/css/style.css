@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ------ Header image ------ */
@@ -37,7 +38,7 @@ header h1 {
 
 .flexbox {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 /* ----- Navigation bar ------ */
 nav {
@@ -75,6 +76,7 @@ nav > a:hover {
 
 .text-white {
     color: white;
+    
 }
 
 .bg-color {
@@ -82,14 +84,17 @@ nav > a:hover {
 }
 
 #home div {
-    color: white;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: black;
     padding: 10px;
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;   
 }
 
+.ul {
+    text-decoration: underline;
+    color:bisque
+}
 /* ------ About Us ------ */
 
 
