@@ -70,7 +70,7 @@ nav > a:hover {
     /* Image taken from https://images.unsplash.com/photo-1516154767575-2146adebdf32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80 */
     background: url(../images/bg-home.jpg) center center / cover no-repeat fixed;
     padding: 1rem;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .text-white {
